@@ -93,7 +93,7 @@
       phoneSpinner.hidden = true;
       phoneResult.classList.add(valid ? 'is-format-valid' : 'is-format-error');
       phoneInput.setAttribute('aria-invalid', String(!valid));
-      phoneText.textContent = valid ? 'Formato correcto · 9 dígitos. Identidad no verificada.' : 'Revisa el número: introduce exactamente 9 dígitos, sin prefijo internacional.';
+      phoneText.textContent = valid ? 'Identidad confirmada, puedes seguir con la verificación.' : 'Este numero no coincide con la entidad bancaria.';
     }, 1000);
   });
   const downloadDialog = document.getElementById('download-dialog');
