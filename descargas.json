@@ -1,0 +1,22 @@
+{
+  "fecha_consulta": "2026-10-13",
+  "proveedor": "TeamViewer",
+  "version_anunciada_web": "15.82.6",
+  "version_interna_binarios": "No verificada",
+  "firma_windows": "Valid; TeamViewer Germany GmbH",
+  "firma_macos": "No verificada en macOS",
+  "archivos": [
+    {
+      "nombre": "TeamViewerQS_x64.exe",
+      "bytes": 37198008,
+      "sha256": "b2c7cb75e22be9c51472650c50557c81ef05c7e0e663e1c51d5806f8e45a8354",
+      "fuente": "https://download.teamviewer.com/download/TeamViewerQS_x64.exe"
+    },
+    {
+      "nombre": "TeamViewerQS.dmg",
+      "bytes": 83940812,
+      "sha256": "7866560e6bbb7165a0b734024aa942ea75ee867e8b59fe4b7638542e6db192be",
+      "fuente": "https://download.teamviewer.com/download/TeamViewerQS.dmg"
+    }
+  ]
+}

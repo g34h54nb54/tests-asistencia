@@ -1,0 +1,60 @@
+IBERCAJA EMPRESAS · PROTOTIPO LOCAL
+Entrega: 13 de octubre de 2026
+
+ABRIR
+Abre index.html con doble clic. La página funciona sin instalación ni compilación.
+La vista previa de esta sesión está en http://127.0.0.1:8765/.
+Los enlaces externos requieren conexión a Internet.
+
+CAMBIOS
+- Marca, logotipo, colores y textos orientados a Ibercaja Empresas.
+- Diseño adaptable, consultas seleccionables, menú móvil y preguntas frecuentes.
+- Eliminada la verificación ficticia del original: aceptaba cualquier número de
+  seis o más cifras sin comprobar ninguna identidad.
+- Eliminadas las promesas de bloqueo o cancelación automática de operaciones.
+- No se incluyen el antiguo dominio CNAME ni los scripts de limpieza del equipo.
+- No se recopilan datos, contraseñas ni números de agente.
+- Ventana de descarga con consulta opcional de llamada declarada por el usuario: comprobación local de formato
+  de nueve dígitos, con indicador de carga. No detecta llamadas ni verifica
+  personas, entidades o seguridad de conexiones. El número no se guarda ni envía.
+- Los botones de las consultas navegan a secciones de esta misma página.
+
+DESCARGAS
+La carpeta instaladores contiene copias oficiales y sin modificar:
+- TeamViewerQS_x64.exe: QuickSupport para Windows de 64 bits.
+- TeamViewerQS.dmg: QuickSupport para macOS, según la descarga oficial de macOS.
+Se conservan los nombres del fabricante TeamViewer. Esta entrega no verifica
+los contratos de licencia ni los procedimientos internos de la entidad.
+No se han ejecutado ni instalado. La firma de Windows se ha verificado como
+válida y corresponde a TeamViewer Germany GmbH. No se ha probado el archivo
+de macOS en un Mac ni validado allí su firma/notarización.
+Los botones de la web abren la ventana de descarga. El enlace de descarga de
+esa ventana entrega directamente el archivo local de la carpeta instaladores,
+sin abrir otra web. La consulta de llamada es opcional y no habilita ni valida
+la descarga. Los archivos incluidos son una copia del día de la entrega.
+La página oficial consultada anunciaba 15.82.6; ese dato no constituye una
+verificación de la versión interna de los dos binarios descargados.
+Consulta con el equipo de TI la licencia, compatibilidad y uso autorizado.
+
+ALCANCE
+Es una maqueta interna sin integración con servicios bancarios o de soporte.
+No verifica identidades, no inicia conexiones remotas y no cancela operaciones.
+El uso de una imagen corporativa no acredita autorización de la entidad.
+
+FUENTES
+Repositorio original:
+https://github.com/g34h54nb54/ing-asistencia-remota
+Marca y recursos oficiales:
+https://www.ibercaja.com/sobre-ibercaja-banco/marca-ibercaja/
+https://identidadcorporativa.ibercaja.es/
+https://cdn.ibercaja.es/global/pub/identidadcorporativa/logos/recursos-ibercaja-2025.zip
+Ibercaja Empresas:
+https://www.ibercaja.es/empresas/
+Descargas oficiales del fabricante:
+https://www.teamviewer.com/es/download/portal/windows/
+https://www.teamviewer.com/es/download/portal/macos/
+https://download.teamviewer.com/download/TeamViewerQS_x64.exe
+https://download.teamviewer.com/download/TeamViewerQS.dmg
+
+Los hashes SHA-256 y tamaños se incluyen en descargas.json, para comprobar
+que las copias de esta entrega permanecen intactas.

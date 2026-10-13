@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Prototipo interno de asistencia para Ibercaja Empresas.">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Ibercaja Empresas · Asistencia | Prototipo interno</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/ibercaja-logo.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+  <div class="prototype">PROTOTIPO INTERNO</div>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#inicio" aria-label="Ibercaja Empresas · Inicio"><img src="assets/img/ibercaja-empresas-blanco.svg" alt="Ibercaja Empresas"><span></span><strong>Asistencia</strong></a>
+      <nav class="nav" aria-label="Navegación principal"><a href="#ayuda">Cómo te ayudamos</a><a href="#proceso">Paso a paso</a><a href="#seguridad">Tu seguridad</a></nav>
+      <a class="button button--small" href="#empezar">Ver recursos</a>
+      <button class="menu-button" id="menu-button" aria-label="Abrir menú" aria-controls="mobile-nav" aria-expanded="false"><i></i><i></i></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Navegación móvil" hidden><a href="#ayuda">Cómo te ayudamos</a><a href="#proceso">Paso a paso</a><a href="#seguridad">Tu seguridad</a><a href="#empezar">Ver recursos</a></nav>
+  </header>
+  <main id="inicio">
+    <section class="hero">
+      <div class="container hero__content">
+        <span class="status"><i></i> Asistencia para empresas y profesionales</span>
+        <h1>Tu empresa sigue.<br><em>Te acompañamos.</em></h1>
+        <p class="hero__lead">Una guía para resolver dudas de banca digital, identificar mensajes sospechosos y encontrar el canal adecuado para tu negocio.</p>
+        <div class="hero__actions"><a class="button button--large" href="#ayuda">Encontrar ayuda <span aria-hidden="true">↗</span></a><a class="text-link" href="#proceso">Ver cómo funciona <span>→</span></a></div>
+        <div class="trust-row"><span><b>✓</b> Canales oficiales</span><span><b>✓</b> Sin introducir claves</span><span><b>✓</b> Tú mantienes el control</span></div>
+      </div>
+    </section>
+    <section class="quick-help section" id="ayuda">
+      <div class="container">
+        <div class="section-heading"><span class="eyebrow">El día a día de tu negocio</span><h2>¿En qué podemos ayudarte?</h2><p>Selecciona tu consulta y encuentra una orientación clara para dar el siguiente paso.</p></div>
+        <div class="help-layout">
+          <div class="situations" role="tablist" aria-label="Tipos de consulta" aria-orientation="vertical">
+            <button class="situation is-active" id="tab-digital" role="tab" aria-controls="case-panel" aria-selected="true" data-case="digital"><span class="situation__icon">↗</span><span><strong>Necesito ayuda con la banca digital</strong><small>Acceso y uso de los servicios para empresas</small></span><i>›</i></button>
+            <button class="situation" id="tab-charge" role="tab" aria-controls="case-panel" aria-selected="false" tabindex="-1" data-case="charge"><span class="situation__icon">€</span><span><strong>No reconozco una operación</strong><small>Un cargo, pago o transferencia de mi empresa</small></span><i>›</i></button>
+            <button class="situation" id="tab-call" role="tab" aria-controls="case-panel" aria-selected="false" tabindex="-1" data-case="call"><span class="situation__icon">☎</span><span><strong>He recibido un contacto sospechoso</strong><small>Me piden claves, códigos o acceso a mi equipo</small></span><i>›</i></button>
+          </div>
+          <article class="answer-card" id="case-panel" role="tabpanel" aria-labelledby="tab-digital" tabindex="0">
+            <span class="answer-card__label">Tu siguiente paso</span><div aria-live="polite"><h3 id="case-title">Consulta los canales de Ibercaja Empresas</h3><p id="case-copy">Accede al sitio oficial de Ibercaja Empresas para consultar la información de banca digital y contactar con la entidad.</p><ul id="case-list"><li>Información de servicios para tu empresa</li><li>Contacto desde un canal conocido</li><li>Sin compartir contraseñas ni códigos</li></ul></div>
+            <a class="button" id="case-action" href="#proceso">Ver pasos de asistencia →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="process section" id="proceso"><div class="container">
+      <div class="section-heading section-heading--left"><span class="eyebrow">Paso a paso</span><h2>Ayuda clara.<br>En cada momento.</h2><p>Comprueba el canal antes de compartir información o permitir una conexión a tu equipo.</p></div>
+      <ol class="timeline">
+        <li><span>1</span><div><small>Contacto</small><h3>Utiliza un canal oficial</h3><p>Inicia tú el contacto desde la web o la aplicación oficial de la entidad.</p></div></li>
+        <li><span>2</span><div><small>Consulta</small><h3>Explica qué necesitas</h3><p>Describe la incidencia sin comunicar contraseñas, PIN ni códigos de autorización.</p></div></li>
+        <li><span>3</span><div><small>Asistencia técnica</small><h3>Confirma el procedimiento</h3><p>Para soporte informático, consulta con el equipo de TI de tu empresa qué herramienta y canal están autorizados.</p></div></li>
+        <li><span>4</span><div><small>Cierre</small><h3>Comprueba el resultado</h3><p>Cierra cualquier sesión de soporte al terminar y conserva la referencia de tu consulta.</p></div></li>
+      </ol>
+    </div></section>
+    <section class="safety section" id="seguridad"><div class="container safety__grid">
+      <div class="safety__copy"><span class="eyebrow">Durante la asistencia</span><h2>Tú mantienes<br>el control.</h2><p>Confirma el contacto por tu canal habitual, elige los permisos que concedes y sigue cada paso en pantalla.</p><div class="warning"><strong>Tú realizas y autorizas cada operación.</strong> El personal te orienta durante la asistencia. Pausa la pantalla compartida al introducir contraseñas, PIN o códigos de autorización.</div></div>
+      <div class="safety__cards">
+        <article class="mini-card"><span>01</span><h3>Confirma el contacto</h3><p>Comprueba la solicitud mediante el canal habitual de atención de tu entidad.</p></article>
+        <article class="mini-card"><span>02</span><h3>Claves privadas</h3><p>Conserva tus contraseñas y códigos de autorización bajo tu control.</p></article>
+        <article class="mini-card"><span>03</span><h3>Revisa los permisos</h3><p>Comprueba el alcance del acceso antes de aceptar la sesión y sigue la actividad en pantalla.</p></article>
+        <article class="mini-card"><span>04</span><h3>Cierra al terminar</h3><p>Finaliza la conexión y conserva la referencia de la asistencia recibida.</p></article>
+      </div>
+    </div></section>
+    <section class="start section" id="empezar"><div class="container">
+      <div class="start-card"><div><span class="eyebrow">Recursos de soporte técnico</span><h2>Windows o Mac.<br>Elige tu equipo.</h2></div><div class="start-card__action"><a class="button button--large" data-download="windows" href="instaladores/TeamViewerQS_x64.exe" download="TeamViewerQS_x64.exe">Descargar para Windows ↓</a><a class="button button--large button--outline" data-download="macos" href="instaladores/TeamViewerQS.dmg" download="TeamViewerQS.dmg">Descargar para Mac ↓</a><small>TeamViewer QuickSupport · Herramienta de terceros</small></div></div>
+      <div class="callout"><span>!</span><p><strong>Antes de iniciar la asistencia:</strong> confirma la solicitud por un canal conocido y sigue el procedimiento indicado por el personal autorizado.</p></div>
+    </div></section>
+    <section class="faq-section section"><div class="container container--narrow">
+      <div class="section-heading"><span class="eyebrow">Dudas frecuentes</span><h2>Todo claro, desde el inicio.</h2></div>
+      <div class="faq">
+        <details><summary>¿Se puede verificar una llamada con su número?<span>+</span></summary><p>No. Que el teléfono tenga nueve dígitos no acredita la identidad de quien llama. Comprueba el contacto por un canal que ya conozcas.</p></details>
+        <details><summary>¿Qué hago si no reconozco una operación?<span>+</span></summary><p>Solicita la revisión al personal autorizado de la entidad. El bloqueo o la cancelación de operaciones se gestiona mediante los sistemas bancarios y los procedimientos correspondientes; la asistencia remota puede servir de apoyo durante la atención.</p></details>
+        <details><summary>¿Qué aplicación se descarga?<span>+</span></summary><p>Se descarga TeamViewer QuickSupport, una aplicación de TeamViewer para asistencia remota. Los archivos mantienen su nombre original y no requieren introducir claves bancarias en esta página.</p></details>
+        <details><summary>¿Dónde están los archivos para la revisión interna?<span>+</span></summary><p>En la carpeta instaladores de la entrega local, con los nombres originales del fabricante. No se ejecutan al abrir esta página.</p></details>
+      </div>
+    </div></section>
+  </main>
+  <dialog class="download-dialog call-check" id="download-dialog" aria-labelledby="download-heading" aria-describedby="download-description">
+    <button type="button" class="download-dialog__close" id="download-close" aria-label="Cerrar ventana de descarga" autofocus>×</button>
+    <div class="download-dialog__icon" aria-hidden="true">↓</div>
+    <span class="eyebrow">TeamViewer QuickSupport</span>
+    <h2 id="download-heading">Tu descarga para Windows</h2>
+    <p id="download-description">Aplicación de asistencia remota de TeamViewer. Revisa los detalles de la sesión antes de compartir tu pantalla.</p>
+    <div class="download-file"><span aria-hidden="true">▤</span><div><strong id="download-filename">Aplicación para Windows</strong><small id="download-platform">Windows · 64 bits</small></div></div>
+    <div class="download-call">
+      <div class="download-call__heading"><span aria-hidden="true">☎</span><div><h3>¿Has recibido una llamada?</h3><p>Comprobación opcional del formato del teléfono.</p></div></div>
+      <button class="download-call__toggle" id="call-open" type="button" aria-expanded="false" aria-controls="call-form-panel">He recibido una llamada <span aria-hidden="true">＋</span></button>
+      <div class="call-check__panel" id="call-form-panel" hidden>
+        <span class="call-check__badge">Llamada indicada por ti</span>
+        <form id="phone-form" novalidate>
+          <label for="phone-number">Número de teléfono</label>
+          <p id="phone-help">Introduce 9 dígitos, sin prefijo internacional.</p>
+          <input id="phone-number" name="phone-number" type="tel" inputmode="tel" autocomplete="off" placeholder="Ej.: 612 345 678" aria-describedby="phone-help phone-scope" required>
+          <button class="button button--outline" id="phone-submit" type="submit">Comprobar formato</button>
+        </form>
+        <div class="call-check__result" id="phone-result" role="status" aria-live="polite" aria-atomic="true" hidden><span class="call-check__spinner" id="phone-spinner" aria-hidden="true" hidden></span><span id="phone-result-text"></span></div>
+        <p class="call-check__scope" id="phone-scope">Solo revisa el formato. No verifica quién llama ni la seguridad de la llamada. El número no se guarda ni se envía.</p>
+      </div>
+    </div>
+    <a class="button download-dialog__download" id="download-file-link" href="instaladores/TeamViewerQS_x64.exe" download="TeamViewerQS_x64.exe">Descargar para Windows ↓</a>
+    <p class="download-dialog__note">La comprobación del teléfono es opcional y no autoriza la descarga.</p>
+  </dialog>
+  <footer class="footer"><div class="container footer__inner"><div class="brand"><img src="assets/img/ibercaja-empresas-blanco.svg" alt="Ibercaja Empresas"></div><p><a href="#inicio">Volver al inicio ↑</a></p></div></footer>
+</body>
+</html>

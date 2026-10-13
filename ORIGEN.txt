@@ -1,0 +1,2 @@
+Repositorio: https://github.com/g34h54nb54/ing-asistencia-remota
+Commit de partida: 7d13863cd118054771669dbdc340cf671ac8405a
